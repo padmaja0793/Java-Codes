@@ -5,7 +5,7 @@ class Animal {                                                  //parent class a
     }
 }
 
-class Dog extends Animal {            //Dog ha animal cha child ahe
+class Dog extends Animal {                        //Dog ha animal cha child ahe
     void bark(){                          // dog cha animal cha method eat ahe
         System.out.println("Dog is barking");  // dog cha method baek()
     }                             //ek class dusryakadun directly inherit krto 
@@ -14,11 +14,12 @@ class Dog extends Animal {            //Dog ha animal cha child ahe
 
 
 class Puppy extends Dog{                   //puppy dog cha child ahe
-    void weep(){                               //        
-        System.out.println("Puppy is weeping");
-    }
-}
-
+    void weep(){                               //     dog aadhich animal pasun extends zalela aahe    
+        System.out.println("Puppy is weeping"); // puppy la 3 miethods miltat
+    }                                                     // eat()
+}                                                         //bark()
+                                                          //weep()
+                                                              
 class Cat extends Animal {
     void meow() {
         System.out.println("Cat meow");
